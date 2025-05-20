@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JS Event Handling Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🎯 JS Event Handling & Interactive Elements</h1>
+  </header>
+
+  <main>
+
+    <!-- 1. Event Handling: Button, Hover, Keypress -->
+    <section>
+      <h2>Event Handling</h2>
+      <button id="colorBtn">Click me to change color!</button>
+      <p id="hoverPara">Hover over me!</p>
+      <input id="keyInput" type="text" placeholder="Type something..." />
+      <p id="keyPressed"></p>
+    </section>
+
+    <!-- Bonus: Double-click secret -->
+    <section>
+      <h2>Secret Double-Click</h2>
+      <button id="secretBtn">Double-click me!</button>
+      <p id="secretMsg"></p>
+    </section>
+
+    <!-- 2. Interactive Elements: Simple Slideshow -->
+    <section>
+      <h2>Image Gallery / Slideshow</h2>
+      <img id="slideImg" src="https://via.placeholder.com/300x200?text=Image+1" alt="Slideshow Image" />
+      <br />
+      <button id="prevBtn">Previous</button>
+      <button id="nextBtn">Next</button>
+    </section>
+
+    <!-- 3. Form Validation -->
+    <section>
+      <h2>Form Validation</h2>
+      <form id="signupForm" novalidate>
+        <label>
+          Email:
+          <input type="email" id="email" required placeholder="you@example.com" />
+          <span class="error" id="emailError"></span>
+        </label>
+        <br />
+        <label>
+          Password:
+          <input type="password" id="password" required placeholder="Min 8 chars" />
+          <span class="error" id="passError"></span>
+        </label>
+        <br />
+        <button type="submit">Sign Up</button>
+      </form>
+      <p id="formMsg"></p>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

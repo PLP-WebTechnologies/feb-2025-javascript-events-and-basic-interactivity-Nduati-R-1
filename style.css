@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 1rem;
+  background: #f9f9f9;
+  color: #333;
+}
+
+button {
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+#error, .error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+#hoverPara:hover {
+  color: purple;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
